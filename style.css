@@ -1,0 +1,252 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color:black;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position:fixed;
+    z-index: 5;
+}
+ul{
+    list-style-type: none;
+    
+}
+li{
+    float: left;
+    display: block;
+    padding: 10px;
+}
+li:hover{
+    color: blue;
+}
+.search{
+    color:blue
+}
+.john{
+
+    align-self: flex-end;
+    position: relative;
+    right:20px;
+}
+.img1{
+    border-radius: 50%;
+    height:25px;
+    width: 25px;
+}
+.flex2{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:50px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 300px;
+    padding-top: 30px;
+
+}
+.flex2>div{
+    padding: 10px;
+    padding-right: 60px;
+    border-right: solid;
+    border-color: grey;
+}
+button{
+    color: blue;
+}
+.job{
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 30px;
+    width:70px;
+}
+.flex3{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-top: 130px;
+}
+.sec{
+    background-color: rgb(176, 176, 228);
+    padding: 5px;
+    border-radius: 3px;
+}
+section>h3{
+    font-weight: lighter;
+}
+.p{
+    display: inline-block;
+    width: 400px;
+    position: absolute;
+    top:130px;
+    left: 270px;
+    font-weight: bolder;
+}
+.flex4{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 180px;
+    margin-left: 270px;
+}
+.i1{
+    height: 30px;
+    width: 30px;
+    border-radius: 2px;
+}
+button{
+    border-style: none;
+}
+.b1{
+    background-color: aliceblue;
+    color:blue;
+    border-radius: 1px;
+}
+.b2{
+    background-color: blue;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    margin-top: 5px;
+    height: 40px;
+}
+.b3{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    margin-top: 5px;
+    height: 40px;
+    margin-left: 10px;
+}
+.flex6{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 30px;
+    margin-left: 270px;
+}
+.flex5{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 30px;
+    margin-left: 270px;
+}
+.dd{
+}
+.i2{
+    display:inline;
+    height: 30px;
+    width:30px;
+    border-radius: 3px;
+}
+.t2{
+    font-weight: bolder;
+}
+.t1{
+    color: grey;
+    font-weight: lighter;
+}
+.t3{
+    color: blue;
+    font-size: small;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+.t4{
+    color: grey;
+    padding-left: 10px;
+}
+.b9{
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-right: 8px;
+}
+.b8{
+    color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.d1{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.d1:hover .t3{
+    color: white;
+}
+.d1:hover .b8{
+    background-color: rgb(165, 165, 225);
+    color: white;
+}
+.d1:hover .b9{
+    background-color: rgb(165, 165, 225);
+    color: white;
+}
+.dd1{
+    z-index: 2;
+    position: absolute;
+    top:120px;
+    left:250px;
+    background-color: white;
+}
+.d1:hover{
+    background-color: blue;
+    color: white;
+}
+.dd2{
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 2;
+    position: absolute;
+    top:130px;
+    left:500px;
+    background-image: url("xhkjyv3cxbb21.webp");
+    width: 700px;
+
+}
+.i9{
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    padding-top: 90px;
+    padding-left: 40px;
+}
+
+.r1{
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top:150px;
+    width: 700px;
+}
+.p1{
+    background-color: white;
+}
